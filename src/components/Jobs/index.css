@@ -1,0 +1,223 @@
+.jobs-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100%;
+  color: #ffffff;
+}
+.profile-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-btn {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+  background-color: #4f46e5;
+  border-radius: 5px;
+}
+.jobs-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.jobs-loader-container {
+  height: 100vh;
+  width: 61vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-job-div {
+  height: 80vh;
+  width: 61vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.no-jobs-img {
+  width: 400px;
+  height: 300px;
+}
+.job-fail-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-loader-container {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter {
+  width: 100%;
+}
+.search-btn {
+  background-color: transparent;
+  border-style: none;
+  color: #ffffff;
+}
+.profile-div {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  color: #000000;
+}
+.profile-head {
+  color: #6366f1;
+}
+.company-logo {
+  width: 50px;
+  height: 50px;
+}
+.type-ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.job-img-head-card {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 30px;
+}
+.job-head-card {
+  padding: 0px;
+  height: 100px;
+  margin-left: 30px;
+}
+.job-title {
+  font-size: 20px;
+}
+.salary-ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.salary-div {
+  color: #f1f5f9;
+}
+.align-card {
+  display: flex;
+  align-items: center;
+}
+.job-ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.job-li {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #202020;
+  margin-bottom: 10px;
+}
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sm-search-div {
+  background-color: #202020;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #b6c5ff;
+  border-radius: 5px;
+}
+.sm-search-input {
+  border-radius: 5px;
+  background-color: #000000;
+  border-style: none;
+  margin-right: 8px;
+  width: 90%;
+  height: 30px;
+  outline: none;
+  color: #ffffff;
+  padding: 10px;
+}
+.lg-search-div {
+  display: none;
+}
+.location-type-salary-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star-div {
+  width: 40px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-type-div {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-para {
+  margin-left: 5px;
+}
+.type-para {
+  margin-left: 5px;
+}
+@media screen and (min-width: 768px) {
+  .job-title {
+    font-size: 28px;
+  }
+  .filter {
+    margin: 20px;
+  }
+  .profile-div {
+    width: 30vw;
+    border-radius: 10px;
+    color: #000000;
+  }
+  .sm-search-div {
+    display: none;
+  }
+  .lg-search-div {
+    background-color: #202020;
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #b6c5ff;
+    border-radius: 5px;
+  }
+  .lg-search-input {
+    border-radius: 5px;
+    background-color: #000000;
+    border-style: none;
+    margin-right: 8px;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    color: #ffffff;
+    padding: 10px;
+  }
+  .job-li {
+    margin-bottom: 10px;
+  }
+  .jobs-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.link {
+  text-decoration: none;
+}
